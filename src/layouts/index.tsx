@@ -155,6 +155,8 @@ function findNameByPath($path: string, $apps: any[]) {
       return findRes.name;
     }
   }
+  // throw '解析子应用名字出错2';
+  console.error('解析子应用名字出错2');
   return void 0;
 }
 
