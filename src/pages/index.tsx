@@ -8,8 +8,8 @@ export default () => {
   return (
     <div>
       <h1 className={styles.title}>fater Page index</h1>
-      <MicroApp name="subapp1" />
-      <MicroApp name="subapp2" />
+      {/* <MicroApp name="subapp1" /> */}
+      {/* <MicroApp name="subapp2" /> */}
     </div>
   );
 };

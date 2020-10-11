@@ -1,4 +1,4 @@
 import apps from './mirco';
-import routes from './routes';
+import menus from './menus';
 
-export { apps, routes };
+export { apps, menus };
