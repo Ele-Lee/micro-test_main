@@ -23,8 +23,12 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@grfe/micro-layout": "^0.0.1-beta0",
     "@grfe/micro-store": "0.0.1-beta2",
+    "@guorou-knowledge/panel": "^1.0.4",
     "@umijs/preset-react": "1.x",
+    "guorou-help": "^0.0.15-0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^5.1.1",
@@ -41,5 +45,8 @@
   },
   "resolutions": {
     "**/moment": "2.27.0"
+  },
+  "publishConfig": {
+    "registry": "http://r.npm.guorou.net"
   }
 }
